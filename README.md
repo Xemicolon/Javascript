@@ -2,7 +2,7 @@
 
 ## Description
 
-...First create an array of objects called data with the following values:
+First create an array of objects called data with the following values:
 
 1. Principal- 2500, time- 1.8
 
@@ -12,11 +12,11 @@
 
 4. Principal- 2000, time- 3
 
-...### NB: Each individual object should have 'principal' and 'time' as keys.
+### NB: Each individual object should have 'principal' and 'time' as keys.
 
-...Write a function called "interestCalculator" that takes an array as a single argument and does the following:
+Write a function called "interestCalculator" that takes an array as a single argument and does the following:
 
-...Determine the rate applicable using the conditions:
+Determine the rate applicable using the conditions:
 
 - If the principal is greater than or equal to 2500 and the time is greater than 1 and less than 3, then rate = 3
 
@@ -26,10 +26,10 @@
 
 - Otherwise, rate = 1;
 
-...Calculate the interest for each individual object using the formula: (principal _ rate _ time) / 100.
+Calculate the interest for each individual object using the formula: (principal _ rate _ time) / 100.
 
-...The function should return an array of objects called 'interestData' and each individual object should have 'principal', 'rate', 'time' and 'interest' as keys with their corresponding values.
+The function should return an array of objects called 'interestData' and each individual object should have 'principal', 'rate', 'time' and 'interest' as keys with their corresponding values.
 
-...Log the 'interestData' array to console BEFORE your return statement.
+Log the 'interestData' array to console BEFORE your return statement.
 
-...Finally, call/execute the function and pass the 'data' array you created.
+..Finally, call/execute the function and pass the 'data' array you created.
