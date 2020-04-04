@@ -32,4 +32,4 @@ The function should return an array of objects called 'interestData' and each in
 
 Log the 'interestData' array to console BEFORE your return statement.
 
-..Finally, call/execute the function and pass the 'data' array you created.
+Finally, call/execute the function and pass the 'data' array you created.
