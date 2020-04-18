@@ -6,7 +6,8 @@ function yugioh(num) {
   let two = "yu";
   let three = "gi";
   let five = "oh";
-  // if our conditions below is true, we push the results to our array
+
+  // check if user's input is an integer or whole number and if our conditions below are true, we push the results to our array
 
   if (Number.isInteger(num)) {
     for (let i = 1; i <= num; i++) {
