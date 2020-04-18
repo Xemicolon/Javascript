@@ -7,6 +7,13 @@ function yugioh(num) {
   let three = "gi";
   let five = "oh";
   // if our conditions below is true, we push the results to our array
+    
+    // if (Number.isInteger(num)) {
+    //     console.log(num)
+    // } else {
+    //     console.log('not a number')
+    // }
+  
   for (let i = 1; i <= num; i++) {
     if (i % 2 === 0 && i % 3 === 0 && i % 5 === 0) {
       arr.push(`${two}-${three}-${five}`);
