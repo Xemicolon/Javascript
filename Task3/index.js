@@ -28,8 +28,6 @@ function yugioh(num) {
   return arr;
 }
 
-// or we can also do it this way using  ternary operator
-
 let myNum = yugioh(100);
 console.log(myNum);
 
